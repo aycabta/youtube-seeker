@@ -36,6 +36,16 @@
                     to = savedTime;
                 }
                 break;
+            case 73: // i ...secret feature
+                switch (player.getPlayerState()) {
+                    case 1: // playing
+                        player.pauseVideo();
+                        break;
+                    default:
+                        player.playVideo();
+                        break;
+                }
+                break;
         }
         if (to !== null) {
             if (to < 0) {
