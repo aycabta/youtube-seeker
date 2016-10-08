@@ -11,16 +11,26 @@
     var player = document.getElementById("movie_player");
     var savedTime = null;
     var seekSeconds = 5;
+    var leftControls = document.getElementsByClassName('ytp-left-controls')[0];
+    var secondsInfo = document.createElement('div');
+    secondsInfo.style.color = '#BBB';
+    secondsInfo.classList.add('ytp-time-display');
+    secondsInfo.classList.add('notranslate');
+    var secondsText = document.createTextNode('seek ' + seekSeconds.toString(10))
+    secondsInfo.appendChild(secondsText);
+    leftControls.appendChild(secondsInfo);
     document.addEventListener("keydown", function(e) {
         var to = null;
         switch (e.keyCode) {
             case 219: // [
                 seekSeconds--;
                 console.log("seek with " + seekSeconds + " seconds");
+                secondsText.textContent = 'seek ' + seekSeconds.toString(10);
                 break;
             case 221: // ]
                 seekSeconds++;
                 console.log("seek with " + seekSeconds + " seconds");
+                secondsText.textContent = 'seek ' + seekSeconds.toString(10);
                 break;
             case 85: // u
                 to = player.getCurrentTime() - seekSeconds;
