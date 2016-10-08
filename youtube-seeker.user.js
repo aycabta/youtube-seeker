@@ -3,7 +3,7 @@
 // @namespace  http://aycabta.github.io/
 // @version    0.1.3
 // @description  benry
-// @include    /^https:\/\/www\.youtube\.com\/watch\?v=/
+// @include    /^https:\/\/www\.youtube\.com\/watch\?.*v=.*$/
 // @copyright  2016+, Code Ass
 // ==/UserScript==
 
