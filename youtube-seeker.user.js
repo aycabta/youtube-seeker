@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        YouTube seeker
+// @name        YouTube Seeker
 // @namespace  http://aycabta.github.io/
 // @version    0.1.1
 // @description  benry

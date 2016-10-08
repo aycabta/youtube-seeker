@@ -1,4 +1,4 @@
-YouTube seeker
+YouTube Seeker
 ==============
 
 YouTube seeker with benry.
