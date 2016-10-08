@@ -1,9 +1,9 @@
-YouTube seeker
+YouTube Seeker
 ==============
 
 YouTube seeker with benry.
 
-[This Greasemonkey script on OpenUserJS.org](https://openuserjs.org/scripts/aycabta/YouTube_seeker)
+[This Greasemonkey script on OpenUserJS.org](https://openuserjs.org/scripts/aycabta/YouTube_Seeker)
 
 ## Usage
 
