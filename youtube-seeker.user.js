@@ -11,6 +11,7 @@
     var player = document.getElementById("movie_player");
     var savedTime = null;
     var seekSeconds = 5;
+    var isShownControls = true;
     var leftControls = document.getElementsByClassName('ytp-left-controls')[0];
     var secondsInfo = document.createElement('div');
     secondsInfo.style.color = '#BBB';
@@ -44,6 +45,15 @@
             case 82: // r
                 if (savedTime !== null) {
                     to = savedTime;
+                }
+                break;
+            case 72: // h
+                if (isShownControls) {
+                    player.hideControls();
+                    isShownControls = false;
+                } else {
+                    player.showControls();
+                    isShownControls = true;
                 }
                 break;
             case 73: // i ...secret feature
