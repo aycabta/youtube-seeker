@@ -76,8 +76,7 @@
                 } else if (to > player.getDuration()) {
                     to = player.getDuration();
                 }
-                console.log(to);
-                console.log(player);
+                console.log("seek to " + to);
                 player.seekTo(to, true);
             }
         });
