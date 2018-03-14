@@ -17,6 +17,7 @@ In YouTube video, you can use some key commands below:
 <dt><code>s</code></dt><dd>Saves present time for seeking with <code>r</code></dd>
 <dt><code>r</code></dt><dd>Seeks to the time what is saved by <code>s</code></dd>
 <dt><code>h</code></dt><dd>Toggle hidden/visible menu</dd>
+<dt><code>i</code></dt><dd>Toggle play/stop</dd>
 </dl>
 
 The seek seconds will be shown on next to video duration.

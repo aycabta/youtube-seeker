@@ -59,7 +59,7 @@
                         isShownControls = true;
                     }
                     break;
-                case 73: // i ...secret feature
+                case 73: // i
                     switch (player.getPlayerState()) {
                         case 1: // playing
                             player.pauseVideo();
