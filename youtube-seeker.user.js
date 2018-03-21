@@ -6,7 +6,6 @@
 // @description  benry
 // @include    /^https:\/\/www\.youtube\.com\/watch\?.*v=.*$/
 // @copyright  2016+, Code Ass
-// @grant       GM_setValue
 // ==/UserScript==
 
 (function() {
