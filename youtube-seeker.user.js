@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       YouTube Seeker
 // @license    MIT
-// @namespace  http://aycabta.github.io/
+// @namespace  https://github.com/aycabta
 // @version    0.2.1
 // @description  benry
 // @include    /^https:\/\/www\.youtube\.com\/watch\?.*v=.*$/
