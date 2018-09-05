@@ -68,6 +68,12 @@
                             break;
                     }
                     break;
+                case 67: // c
+                    player.loadModule("captions");
+                    break;
+                case 81: // q
+                    player.unloadModule("captions");
+                    break;
             }
             if (to !== null) {
                 if (to < 0) {
