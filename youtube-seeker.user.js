@@ -2,7 +2,7 @@
 // @name       YouTube Seeker
 // @license    MIT
 // @namespace  https://github.com/aycabta
-// @version    0.2.1
+// @version    0.2.2
 // @description  benry
 // @include    /^https:\/\/www\.youtube\.com\/watch\?.*v=.*$/
 // @copyright  2016+, Code Ass
