@@ -18,6 +18,8 @@ In YouTube video, you can use some key commands below:
 <dt><code>r</code></dt><dd>Seeks to the time what is saved by <code>s</code></dd>
 <dt><code>h</code></dt><dd>Toggle hidden/visible menu</dd>
 <dt><code>i</code></dt><dd>Toggle play/stop</dd>
+<dt><code>c</code></dt><dd>On caption</dd>
+<dt><code>q</code></dt><dd>Off caption</dd>
 </dl>
 
 The seek seconds will be shown on next to video duration.
